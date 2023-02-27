@@ -582,6 +582,14 @@ nav .fas{
     .copyright{
         font-size:14px;
     }
+     .services-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        grid-gap: 40px;
+        margin-top: 40px;
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 #msg{
