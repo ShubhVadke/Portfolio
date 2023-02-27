@@ -45,6 +45,7 @@ nav ul li{
     margin: 10px 20px; 
 }
 
+
 nav ul li a{
     color:#fff;
     text-decoration:none;
@@ -334,6 +335,7 @@ nav ul li a:hover::after{
     overflow: hidden;
     max-height: 250px;
     max-width: 550px;
+
 }
 
 .work img{
@@ -585,7 +587,7 @@ nav .fas{
     .copyright{
         font-size:14px;
     }
-     .services-list{
+    .services-list{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
         grid-gap: 40px;
@@ -601,3 +603,4 @@ nav .fas{
     display: block;
     margin-left: 70px;
 }
+
