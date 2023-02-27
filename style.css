@@ -328,9 +328,12 @@ nav ul li a:hover::after{
 }
 
 .work{
+    max-width: 200px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    max-height: 250px;
+    max-width: 550px;
 }
 
 .work img{
